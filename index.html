@@ -263,7 +263,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-14T01:36:29+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-14T01:39:48+08:00">
                 2018-05-14
               </time>
             
@@ -361,8 +361,7 @@
 <p>d 即deploy</p>
 </blockquote>
 <h2 id="7-Hexo网站"><a href="#7-Hexo网站" class="headerlink" title="7.Hexo网站"></a>7.Hexo网站</h2><p>这个时候，就得到了<a href="https://hoctoboy.github.io/">cosea</a>个人博客。</p>
-<p>##8.购买域名并解析</p>
-<p>本文以<a href="https://cn.aliyun.com/" target="_blank" rel="noopener">阿里云</a>为例，注册购买部分略。购买后，直接进入<a href="https://dc.console.aliyun.com/next/index#/domain/list/all-domain" target="_blank" rel="noopener">域名列表</a>，点击解析，然后添加解析，这里添加两个解析，以同时打开两种输入形式的域名。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lllookii.com</span><br><span class="line">www.lllookii.com</span><br></pre></td></tr></table></figure></p>
+<h2 id="8-购买域名并解析"><a href="#8-购买域名并解析" class="headerlink" title="8.购买域名并解析"></a>8.购买域名并解析</h2><p>本文以<a href="https://cn.aliyun.com/" target="_blank" rel="noopener">阿里云</a>为例，注册购买部分略。购买后，直接进入<a href="https://dc.console.aliyun.com/next/index#/domain/list/all-domain" target="_blank" rel="noopener">域名列表</a>，点击解析，然后添加解析，这里添加两个解析，以同时打开两种输入形式的域名。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lllookii.com</span><br><span class="line">www.lllookii.com</span><br></pre></td></tr></table></figure></p>
 <table>
 <thead>
 <tr>
@@ -385,11 +384,10 @@
 </tbody>
 </table>
 <p>到这里，还没有结束，很简单的一个原理，本地将博客加载到GitHub托管网站，而hexo直接从GitHub调博客数据，我们将域名解析到了GitHub，但我们的解析是使用的CNAME，这个时候，GitHub并不能识别CNAME，它就相当于解析的一个中间桥梁，链接着域名与GitHub，而GitHub这个时候还未创建CNAME，所以，这个时候输入域名lllookii.com并无意义，这个时候，我们先要进GitHub的仓库<code>https://github.com/hoctoboy/hoctoboy.github.io</code>，点<code>create new file</code>，在<code>name your file</code>处输入<code>CNAME</code>，在<code>edit</code>中输入<code>lllookii.com</code>，此时，就完成了域名解析的全部过程，浏览器输入域名<code>lllookii.com</code>即可打开个人博客。</p>
-<p>##9.更多问题</p>
-<p>配置完网站域名，<code>hexo d</code>再次部署时，重新打开<code>lllookii.com</code>会出现404错误，这个时候，需要在<code>source</code>文件夹下，新建一个txt格式的文档，命名为<code>CNAME</code>，并创建文档内容为</p>
+<h2 id="9-更多问题"><a href="#9-更多问题" class="headerlink" title="9.更多问题"></a>9.更多问题</h2><p>配置完网站域名，<code>hexo d</code>再次部署时，重新打开<code>lllookii.com</code>会出现404错误，这个时候，需要在<code>source</code>文件夹下，新建一个txt格式的文档，命名为<code>CNAME</code>，并创建文档内容为</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">你的网站域名，如：lllookii.com(实际输入时，只输入域名 lllookii.com 即可)</span><br></pre></td></tr></table></figure>
 <p>然后，输入命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p>这个时候，再次进入lllookii.com域名查看即可。<br>当我们重新部署后，网站内容并没有更新，这个时候，需要在<code>hexo clean</code>后，删除<code>.deploy_git</code>文件，然后再执行<code>hexo g</code>，再使用<code>hexo d</code>部署，即可更新。</p>
+<p>这个时候，再次进入<code>lllookii.com</code>域名查看即可。<br>当我们重新部署后，网站内容并没有更新，这个时候，需要在<code>hexo clean</code>后，删除<code>.deploy_git</code>文件，然后再执行<code>hexo g</code>，再使用<code>hexo d</code>部署，即可更新。</p>
 <p><strong>结束语：</strong><code>从</code>此，<code>让</code>我<code>们</code>将<code>生</code>活<code>过</code>得<code>五</code>彩<code>斑</code>斓。到<code>此</code>结<code>束</code>，<code>再会</code>。</p>
 
           
