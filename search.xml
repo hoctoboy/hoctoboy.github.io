@@ -8,10 +8,10 @@
         <category>神级利器</category>
       </categories>
       <tags>
+        <tag>测试</tag>
         <tag>工具</tag>
         <tag>语法</tag>
         <tag>帮助</tag>
-        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
@@ -35,8 +35,8 @@
         <category>markdown</category>
       </categories>
       <tags>
-        <tag>测试</tag>
         <tag>语法掌握程度</tag>
+        <tag>测试</tag>
         <tag>hexo</tag>
         <tag>markdown</tag>
       </tags>
