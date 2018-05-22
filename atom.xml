@@ -39,13 +39,13 @@
       <category term="神级利器" scheme="http://lllookii.com/categories/%E7%A5%9E%E7%BA%A7%E5%88%A9%E5%99%A8/"/>
     
     
+      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
       <category term="工具" scheme="http://lllookii.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
       <category term="语法" scheme="http://lllookii.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
       <category term="帮助" scheme="http://lllookii.com/tags/%E5%B8%AE%E5%8A%A9/"/>
-    
-      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -101,9 +101,9 @@
       <category term="markdown" scheme="http://lllookii.com/categories/markdown/"/>
     
     
-      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="语法掌握程度" scheme="http://lllookii.com/tags/%E8%AF%AD%E6%B3%95%E6%8E%8C%E6%8F%A1%E7%A8%8B%E5%BA%A6/"/>
+    
+      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
       <category term="hexo" scheme="http://lllookii.com/tags/hexo/"/>
     
