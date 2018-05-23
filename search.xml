@@ -22,9 +22,9 @@
         <category>散文</category>
       </categories>
       <tags>
-        <tag>测试</tag>
         <tag>童年</tag>
         <tag>随记</tag>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
@@ -35,8 +35,8 @@
         <category>markdown</category>
       </categories>
       <tags>
-        <tag>语法掌握程度</tag>
         <tag>测试</tag>
+        <tag>语法掌握程度</tag>
         <tag>hexo</tag>
         <tag>markdown</tag>
       </tags>
