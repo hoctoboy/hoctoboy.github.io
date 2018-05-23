@@ -69,11 +69,11 @@
       <category term="散文" scheme="http://lllookii.com/categories/%E6%95%A3%E6%96%87/"/>
     
     
+      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
       <category term="童年" scheme="http://lllookii.com/tags/%E7%AB%A5%E5%B9%B4/"/>
     
       <category term="随记" scheme="http://lllookii.com/tags/%E9%9A%8F%E8%AE%B0/"/>
-    
-      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -101,9 +101,9 @@
       <category term="markdown" scheme="http://lllookii.com/categories/markdown/"/>
     
     
-      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="语法掌握程度" scheme="http://lllookii.com/tags/%E8%AF%AD%E6%B3%95%E6%8E%8C%E6%8F%A1%E7%A8%8B%E5%BA%A6/"/>
+    
+      <category term="测试" scheme="http://lllookii.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
       <category term="hexo" scheme="http://lllookii.com/tags/hexo/"/>
     
