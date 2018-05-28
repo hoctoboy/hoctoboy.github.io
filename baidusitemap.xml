@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>http://lllookii.com/archives/473ddf21.html</loc>
+    <lastmod>2018-05-28T16:47:12.771Z</lastmod>
+    <data>
+        <display>
+        <title>我与她的恋情</title>
+        <pubTime>2016-10-16T18:10:16.000Z</pubTime>
+        
+        <tag>学习</tag>
+         
+        <tag>数学</tag>
+         
+        <tag>数学之美</tag>
+         
+         
+           
+             
+              <breadCrumb title="数学" url="http://lllookii.com/categories/%E6%95%B0%E5%AD%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://lllookii.com/archives/43ff0b8.html</loc>
+    <lastmod>2018-05-28T16:42:41.769Z</lastmod>
+    <data>
+        <display>
+        <title>数学家的故事</title>
+        <pubTime>2015-07-21T07:10:16.000Z</pubTime>
+        
+        <tag>数学</tag>
+         
+        <tag>数学家</tag>
+         
+        <tag>数学史</tag>
+         
+         
+           
+             
+              <breadCrumb title="数学" url="http://lllookii.com/categories/%E6%95%B0%E5%AD%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://lllookii.com/archives/c0b746.html</loc>
     <lastmod>2018-05-28T12:03:35.581Z</lastmod>
     <data>
@@ -35,9 +83,9 @@
         <title>小海markdown语法测试</title>
         <pubTime>2018-04-10T07:00:42.000Z</pubTime>
         
-        <tag>语法掌握程度</tag>
-         
         <tag>测试</tag>
+         
+        <tag>语法掌握程度</tag>
          
         <tag>hexo</tag>
          
@@ -61,13 +109,13 @@
         <title>小海cosea常用Hexo帮助手册</title>
         <pubTime>2018-05-10T14:10:16.000Z</pubTime>
         
-        <tag>测试</tag>
-         
         <tag>工具</tag>
          
         <tag>语法</tag>
          
         <tag>帮助</tag>
+         
+        <tag>测试</tag>
          
          
            
